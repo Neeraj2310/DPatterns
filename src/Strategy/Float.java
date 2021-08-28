@@ -1,0 +1,11 @@
+package Strategy;
+
+public class Float implements ISwimBehaviour {
+    public Float() {
+    }	@Override
+	public void swim() {
+		// TODO Auto-generated method stub
+    System.out.println("I can float");
+	}
+
+}

@@ -22,5 +22,13 @@ public abstract class AbstractDuck {
 	
 	public void performSwim() {
 		swimBehaviour.swim();
+    }
+	
+	public void setIFlyBehaviour(IFlyBehaviour fb) {
+		//IFlyBehaviour fb1 = null;
+		// TODO Auto-generated method stub
+		flyBehaviour = fb;
+		
 	}
-}
+	
+	}
